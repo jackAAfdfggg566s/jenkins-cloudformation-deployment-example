@@ -11,7 +11,7 @@ spec:
     runAsNonRoot: false
   containers:
   - name: jenkins-agent
-    image: <AWS-ACCOUNT-ID>.dkr.ecr.<AWS-REGION>.amazonaws.com/test-jenkins-agent:latest # Enter the jenkins inbound agent image.
+    image:854900650224.dkr.ecr.ap-southeast-1.amazonaws.com/test-jenkins-agent:tag1  # Enter the jenkins inbound agent image.
     command:
     - cat
     tty: true
