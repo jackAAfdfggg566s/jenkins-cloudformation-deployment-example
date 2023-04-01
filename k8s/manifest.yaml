@@ -109,7 +109,7 @@ spec:
         runAsNonRoot: false
       containers:
         - name: jenkins-manager
-          image: <AWS-ACCOUNT-ID>.dkr.ecr.<AWS-REGION>.amazonaws.com/test-jenkins-manager:latest # Enter the jenkins manager image
+          image:  854900650224.dkr.ecr.ap-southeast-1.amazonaws.com/jenkins_cf_deploy_exp:manager_v1  # Enter the jenkins manager image
           imagePullPolicy: Always
           resources:
             requests:
